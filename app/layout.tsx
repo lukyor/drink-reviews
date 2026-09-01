@@ -18,8 +18,8 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Vad har vi på..?",
-  description: "One drink at a time — reviews, scores, and notes.",
+  title: "Beer Boys",
+  description: "Vi dricker öl, tillsammans.",
 };
 
 export default function RootLayout({
@@ -33,7 +33,7 @@ export default function RootLayout({
         <header className="border-b border-line bg-ink text-paper">
           <div className="mx-auto flex max-w-4xl items-baseline justify-between px-6 py-5">
             <Link href="/" className="font-display text-2xl tracking-tight">
-              Vad har vi på..?
+              Beer Boys
             </Link>
             <div className="flex items-center gap-6">
               <Link
@@ -48,7 +48,7 @@ export default function RootLayout({
         </header>
         <main className="mx-auto max-w-4xl px-6 py-10">{children}</main>
         <footer className="mx-auto max-w-4xl px-6 py-10 text-sm text-stone">
-          Vad har vi på..? — a personal drinks journal.
+          Vad har vi på..?
         </footer>
       </body>
     </html>
