@@ -13,10 +13,10 @@ export default async function HomePage() {
   return (
     <div>
       <p className="font-display text-lg italic text-stone">
-        One drink at a time.
+        We drink beer, together.
       </p>
       <h1 className="mt-1 max-w-prose font-display text-4xl text-ink">
-        Notes, scores, and honest opinions on everything I've tried.
+        Honest beer reviews, scores, and notes from a small group of friends.
       </h1>
 
       <div className="mt-10">
